@@ -2,7 +2,7 @@
 
 
 Instagram Clone con React
-Este es un clone de la popular plataforma de redes sociales Instagram creada por Sley david , construido con React. El proyecto aún está en desarrollo, pero ya incluye las siguientes características:
+Este es un clone de la popular plataforma de redes sociales Instagram creada por Sley david y Tonny Alexander , construido con React. El proyecto aún está en desarrollo, pero ya incluye las siguientes características:
 
 Banner Izquierdo
 Perfil
