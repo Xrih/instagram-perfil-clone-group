@@ -1,0 +1,77 @@
+@import './variables';
+
+.banner {
+    display: flex;
+    gap: 3.93rem;
+    border-top: .6px solid rgba(255, 255, 255, 0.2);
+    padding-top: 1.2rem;
+    width: 58.5rem;
+    margin-left: 18.8rem;
+    margin-top: 3.3rem;
+
+    .Post {
+        display: flex;
+        margin-left: 11.5rem;
+
+        span {
+            font-family: var(--font-text);
+            color: var(--color-text);
+            font-weight: bold;
+            font-size: 12px;
+            margin-left: 6px;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .Reels {
+        display: flex;
+        
+
+        span {
+            font-family: var(--font-text);
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: bold;
+            font-size: 12px;
+            margin-left: 6px;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .Saved {
+        display: flex;
+
+        span {
+            font-family: var(--font-text);
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: bold;
+            font-size: 12px;
+            margin-left: 6px;
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .Tagged {
+        display: flex;
+
+        span {
+            font-family: var(--font-text);
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: bold;
+            font-size: 12px;
+            margin-left: 6px;
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+}

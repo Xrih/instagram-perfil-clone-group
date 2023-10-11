@@ -1,0 +1,86 @@
+* {
+    font-family: var(--font-text);
+}
+
+.grid-item {
+    width: 100%;
+    height: 0;
+    padding-bottom: calc(100% / 1);
+    position: relative;
+    margin-top: -3.6em;
+    margin-left: .6em;
+    margin-bottom: 3.57rem; 
+
+    img {
+        width: 104%;
+        height: 104%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+    }
+    &:hover {
+        // opacity: .6;
+        filter: brightness(0.7);
+
+        &::after {
+            color: white;
+            content: "";
+            width: 1.5rem;
+            height: 1.5rem;
+            position: absolute;
+            left: 8rem;
+            top: 9.4rem;
+            background-image: url("/src/assets/img/charlar.png");
+            background-size: cover;
+            background-position: left;
+        }
+    
+        &::before {
+            color: white;
+            content: "1mill";
+            font-weight: bold;
+            width: 1.5rem;
+            height: 1.5rem;
+            position: absolute;
+            left: 9.6rem;
+            top: 9.5rem;
+            z-index: 10;
+        }
+    }
+}
+
+.likes {
+    position: relative;
+
+    &:hover {
+            &::after {
+                color: white;
+                content: "";
+                font-family: var(--font-text);
+                width: 1.5rem;
+                height: 1.5rem;
+                position: relative;
+                left: 16rem;
+                top: 9.4rem;
+                background-image: url("/src/assets/img/charlar.png");
+                background-size: cover;
+                background-position: left;
+            }
+        
+            &::before {
+                color: white;
+                content: "66";
+                font-family: var(--font-text);
+                background-image: url("/src/assets/img/charlar.png");
+                width: 1.5rem;
+                height: 1.5rem;
+                position: absolute;
+                left: 12.6rem;
+                top: 9.5rem;
+                z-index: 10;
+                margin-left: 2em;
+            }
+    }
+}

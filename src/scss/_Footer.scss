@@ -1,0 +1,53 @@
+@import './variables';
+
+footer {
+    display: flex;
+    gap: 1.1rem;
+    margin-left: 18.8rem;
+    cursor: pointer;
+    margin-top: -1.6rem;
+
+    span {
+        color: #A8A8A8;
+        font-family: var(--font-text);
+        font-size: 11.7px;
+        transition: .7s all ease-in-out;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.footer-IG {
+    display: flex;
+    margin-left: 41.2rem;
+    margin-top: 1.4em;
+    gap: .7rem;
+    padding-bottom: 2.6rem;
+
+    .spanish {
+        select {
+            background-color: #000;
+            color: #A8A8A8;
+            border: 1px solid #000;
+            font-weight: lighter;
+            cursor: pointer;
+
+
+            option {
+                color: var(--color-text);
+                font-family: var(--font-text);
+                font-size: 11.7px;
+            }
+        }
+    }
+
+    p {
+        color: var(--color-text);
+        font-family: var(--font-text);
+        font-size: 11.7px;
+        color: #A8A8A8;
+        margin-top: 3px;
+    }
+}

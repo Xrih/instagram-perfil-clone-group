@@ -1,0 +1,8 @@
+.projects-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding:  0.4em 4em;
+    gap: 1em;
+    margin-left: 17.6%;
+    margin-top: 4.5em;
+}

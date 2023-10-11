@@ -1,0 +1,13 @@
+@import './BannerLeft';
+@import './variables';
+@import './InfoPage';
+@import './More';
+@import './BannerPost';
+@import './Post';
+@import './Responsive';
+@import './Footer';
+@import './modal/CardModal';
+
+body {
+    background-color: var(--color-background);
+}

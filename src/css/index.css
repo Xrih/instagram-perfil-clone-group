@@ -1,0 +1,38 @@
+:root {
+  --font-text: -apple-system, BlinkMacSystemFont, "Segou UI", Roboto, Heveltica, Arial, sans-serif;
+  --color-background: #000000;
+  --color-text: #ffffff;
+}
+
+aside {
+  /* HOME */
+}
+aside svg {
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+aside .home {
+  display: flex;
+}
+aside .home svg {
+  margin-top: 2.7rem;
+}
+aside .home p {
+  color: var(--color-text);
+  margin-top: 2.93rem;
+  font-family: var(--font-text);
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+
+:root {
+  --font-text: -apple-system, BlinkMacSystemFont, "Segou UI", Roboto, Heveltica, Arial, sans-serif;
+  --color-background: #000000;
+  --color-text: #ffffff;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+/*# sourceMappingURL=index.css.map */

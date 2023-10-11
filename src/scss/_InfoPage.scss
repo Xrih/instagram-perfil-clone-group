@@ -1,0 +1,113 @@
+@import './variables';
+
+header {
+    img {
+        width: 9.4rem;
+        height: 9.4rem;
+        border-radius: 50%;
+        margin-left: 23rem;
+        margin-top: 2rem;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    .subInfo1 {
+        h4 {
+            font-family: var(--font-text);
+            color: var(--color-text);
+            font-weight: lighter;
+            margin-left: 38rem;
+            margin-top: -9rem;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            display: flex;
+            gap: 9px;
+            margin-left: 45.4rem;
+            margin-top: -3.2rem;
+
+            a {
+                color: var(--color-text);
+                font-family: var(--font-text);
+                text-decoration: none;
+                font-size: 13.6px;
+                font-weight: bold;
+                background-color: #363636;
+                padding: 7.5px 16px; 
+                border-radius: 7px;
+                margin-top: -2px;
+
+                &:hover {
+                    background-color: #5d5858;
+                }
+            }
+
+            svg {
+                margin-top: 2px;
+                margin-left: 4px;
+            }
+        }
+    }
+
+    .subInfo2 {
+        display: flex;
+        gap: 2rem;
+        margin-left: 37.99rem;
+        margin-top: .8rem;
+
+        p {
+            color: var(--color-text);
+            font-family: var(--font-text);
+            font-size: 15.6px;
+        }
+    }
+
+
+    .subInfo3 {
+        h5 {
+            color: var(--color-text);
+            font-family: var(--font-text);
+            font-size: 13.7px;
+            margin-left: 38.3rem;
+            margin-top: 3px;
+        }
+
+        .threads {
+            display: flex;
+            margin-left: 38.3rem;
+            background-color: #363636;
+            width: 4.7rem;
+            height: 1rem;
+            padding: 5px;
+            border-radius: 12px;
+            margin-top: -1rem;
+            cursor:pointer;
+
+            svg {
+                margin-top: -5px;
+                width: 1rem;
+            }
+
+            p {
+                color: var(--color-text);
+                font-family: var(--font-text);
+                font-size: 12px;
+                margin-top: 3px;
+                font-weight: 600;
+                margin-left: 3px;
+            }
+        }
+
+        .josser {
+            margin-top: 5px;
+            span {
+                color: var(--color-text);
+                font-family: var(--font-text);
+                font-size: 13.5px;
+                margin-left: 38.3rem;
+                padding-top: 1px;
+            }
+        }
+    }
+} 
